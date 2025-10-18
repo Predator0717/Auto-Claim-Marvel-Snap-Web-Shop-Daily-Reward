@@ -17,7 +17,7 @@
         }
     }
 
-    // 页面加载后延迟执行
+    // delay the click 3 seconds after loading the webpage
     window.addEventListener('load', () => {
         setTimeout(clickButton, 3000);
     });
